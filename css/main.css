@@ -18,6 +18,10 @@ body {
     box-shadow: 0px 2px 10px 3px rgba(0,0,0,0.15) !important;
 }
 
+.navbar li {
+    font-size: 1.5rem;
+}
+
 @media (min-width: 865px) {
     .navbar .navbar-nav {
       display: inline-block;
@@ -33,17 +37,19 @@ body {
 /* SUPPORT HEADER BUTTON */
 .btn-support {
     width: 185px;
-    height: 32px;
+    height: 35px;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.4rem;
     letter-spacing: 0.15rem;
     background-color: #a0ca56;
-    border: 0;
     border-radius: 3px;
+    border: 0;
     color: #ffffff;
     cursor: pointer;
     float: right;
     margin-right: 6%;
+    margin-top: 0.8rem;
+    margin-bottom: 1.5rem;
     -webkit-transition: background-color 0.2s ease-out,
                 color 0.2s ease-out;
     -moz-transition: background-color 0.2s ease-out,
@@ -70,6 +76,12 @@ body {
                 color 0.3s ease-in;
     transition: background-color 0.3s ease-in,
                 color 0.3s ease-in;
+}
+
+@media (min-width: 950px) {
+    .btn-support {
+        margin-bottom: 0;
+    }
 }
 
 @media (max-width: 925px) {
@@ -181,6 +193,12 @@ body {
     margin-top: 2%;
 }
 
+@media (max-width:500px) {
+    .textContent2 h1 {
+        width: 100%;
+    }
+}
+
 /* PANEL 3 */
 .panel3 {
     height: 100%;
@@ -212,6 +230,7 @@ body {
     .textContent3 h1 {
         padding-left: 0;
         margin-top: 7rem;
+        width: 100%;
     }
 }
 
@@ -239,6 +258,42 @@ body {
     line-height: 3.5rem;
     padding: 0 2%;
     margin-top: 2%;
+}
+
+@media (max-width:500px) {
+    .textContent4 h1 {
+        padding-left: 0;
+        margin-top: 7rem;
+        width: 100%;
+    }
+}
+
+/* LINK PANEL */
+.linkPanel {
+    height: 100%;
+    min-height: 600px;
+    background: #000000; /* Old browsers */
+    background: -moz-linear-gradient(top,  #dddddd 0%, #eeeeee 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #dddddd 0%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #dddddd 0%,#eeeeee 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #dddddd 0%,#eeeeee 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #dddddd 0%,#eeeeee 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+    padding: 45px 55px;
+}
+
+.linkPanel h1 {
+    color: #52575e;
+    letter-spacing: 0.3rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 250px;
+    line-height: 4.5rem;
+}
+
+.linkWrapper {
+    
 }
 
 /* MISC */
