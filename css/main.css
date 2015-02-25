@@ -195,7 +195,7 @@ body {
 
 @media (max-width:500px) {
     .textContent2 h1 {
-        width: 100%;
+        font-size: 100%;
     }
 }
 
@@ -230,7 +230,7 @@ body {
     .textContent3 h1 {
         padding-left: 0;
         margin-top: 7rem;
-        width: 100%;
+        font-size: 100%;
     }
 }
 
@@ -263,8 +263,8 @@ body {
 @media (max-width:500px) {
     .textContent4 h1 {
         padding-left: 0;
-        margin-top: 7rem;
-        width: 100%;
+        margin-top: 5rem;
+        font-size: 100%;
     }
 }
 
@@ -294,6 +294,13 @@ body {
 
 .linkWrapper {
     
+}
+
+@media (max-width:500px) {
+    .linkPanel h1 {
+        padding: 0 50px;
+        font-size: 2rem;
+    }
 }
 
 /* MISC */
