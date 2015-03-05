@@ -34,6 +34,50 @@ body {
     }
 }
 
+/* HOVER */
+
+.sidebar-nav {
+    padding: 9px 0;
+}
+
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    margin-top: -1px;
+}
+
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
+    margin-top: 0;
+}
+
+.navbar .sub-menu:before {
+    border-bottom: 7px solid transparent;
+    border-left: none;
+    border-right: 7px solid rgba(0, 0, 0, 0.2);
+    border-top: 7px solid transparent;
+    left: -7px;
+    top: 10px;
+}
+.navbar .sub-menu:after {
+    border-top: 6px solid transparent;
+    border-left: none;
+    border-right: 6px solid #fff;
+    border-bottom: 6px solid transparent;
+    left: 10px;
+    top: 11px;
+    left: -6px;
+}
+
 /* SUPPORT HEADER BUTTON */
 .btn-support {
     width: 185px;
@@ -272,14 +316,7 @@ body {
 .linkPanel {
     height: 100%;
     min-height: 600px;
-    background: #000000; /* Old browsers */
-    background: -moz-linear-gradient(top,  #dddddd 0%, #eeeeee 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #dddddd 0%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #dddddd 0%,#eeeeee 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #dddddd 0%,#eeeeee 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  #dddddd 0%,#eeeeee 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+    background-color: #f1f1f1;
     padding: 45px 25px;
 }
 
@@ -303,6 +340,19 @@ body {
         letter-spacing: 0.2rem;
         line-height: 3rem;
     }
+    
+    .linkPanel {
+        padding: 25px 25px;
+    }
+}
+
+/* FOOTER */
+.footer {
+    background-color: #eeeeee;
+    height: 250px;
+    width: 100%;
+    z-index: 3;
+    border-top: 1px solid #bbbbbb;
 }
 
 /* MISC */
@@ -342,4 +392,93 @@ body {
 
 .textHighlight {
     color: #ffc000;
+}
+
+/* ============CONTACT PAGE============= */
+#internal {
+    margin-top: 5rem;
+    width: 960px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eeeeee;
+    height: 100%;
+    padding: 3rem;
+    
+}
+
+#internal h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-bottom: 2rem;
+    background-color: #aaaaaa;
+    padding: 1rem;
+    margin-left: -6rem;
+    padding-left: 6rem;
+    color: #ffffff;
+}
+
+#internal h2 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #383838;
+}
+
+#internal p {
+    font-size: 1.6rem;
+}
+#internal .contactText {
+    font-size: 1.8rem;
+    width: 525px;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    line-height: 3rem;
+}
+
+#contact1, #contact2 {
+    margin-top: 1.5rem;
+    float:left;
+    margin-left: 3rem;
+    letter-spacing: 0.05rem;
+}
+
+#internal h4{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: -2.5rem 0 3rem 2rem;
+    background-color: #383838;
+    padding: 1rem;
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+    max-width: 250px;
+}
+
+@media (max-width: 600px) {
+    #internal .contactText {
+        width: 100%;
+        margin: 0;
+    }
+    
+    #contact1, #contact2 {
+        margin: 1rem auto;
+    }
+}
+/* ===============NEWS PAGE=============== */
+#newsContent {
+    font-size: 1.5rem;
+    line-height: 3rem;
+    padding: 0 2rem;
+    margin-bottom: 3rem;
+}
+
+/* ================ABOUT PAGES=================*/
+.aboutHeader {
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    font-size: 3rem !important;
+    margin: 3rem 0 2rem 2rem;
+    
 }
