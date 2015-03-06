@@ -450,6 +450,11 @@ body {
 }
 
 @media (max-width: 600px) {
+    
+#internal {
+    padding: 3rem 1.5rem;
+}
+    
 #internal .contactText {
     width:100%;
     margin:0;
