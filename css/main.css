@@ -161,7 +161,7 @@ body {
 }
 
 .textContent1 h1 {
-    color:#323840;
+    color:#383838;
     letter-spacing:.1rem;
     font-weight:700;
     text-align:center;
@@ -311,11 +311,13 @@ body {
     height:100%;
     min-height:600px;
     background-color:#f1f1f1;
-    padding:45px 25px;
+    padding:35px 25px;
+    background-image: url(../images/island_blur.jpg);
+    background-size: cover;
 }
 
 .linkPanel h1 {
-    color:#52575e;
+    color:#383838;
     letter-spacing:.3rem;
     font-weight:700;
     text-align:center;
@@ -323,10 +325,7 @@ body {
     line-height:4.5rem;
 }
 
-.linkWrapper {
-}
-
-@media (max-width:800px) {
+@media (max-width:900px) {
 .linkPanel h1 {
     padding:0;
     font-size:2rem;
@@ -336,6 +335,7 @@ body {
 
 .linkPanel {
     padding:25px;
+    background-size: 1002px 667px;
 }
 }
 
@@ -387,7 +387,7 @@ body {
     color:#ffc000;
 }
 
-/* ============CONTACT PAGE============= */
+/* ============INTERNAL PAGE============= */
 #internal {
     margin-top:5rem;
     width:960px;
@@ -449,6 +449,23 @@ body {
     max-width:250px;
 }
 
+#internal h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.15rem;
+}
+
+#internal hr {
+    color: #cccccc;
+    background-color: #cccccc;
+    height: 1px;
+}
+
+.imgCenter {
+    margin: 0 auto;
+    position: relative;
+}
+
 @media (max-width: 600px) {
     
 #internal {
@@ -462,7 +479,26 @@ body {
 
 #contact1,#contact2 {
     margin:1rem auto;
+    margin-right: 2rem;
 }
+}
+
+#internal .iframeWrapper {
+    width:100%;
+    float:left;
+    text-align:center;
+    margin-bottom: 4rem;
+}
+
+#internal iframe {
+    margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+    #internal iframe {
+        width: 320px;
+        height: 215px;
+    }
 }
 
 /* ===============NEWS PAGE=============== */
@@ -479,6 +515,14 @@ body {
     letter-spacing:.1rem;
     font-size:3rem!important;
     margin:3rem 0 2rem 2rem;
+}
+
+#blockQuotes {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    padding-left: 15px;
+    border-left: 3px solid #ccc;
 }
 
 /* ======================INITIATIVES====================== */
