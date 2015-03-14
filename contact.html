@@ -47,8 +47,11 @@
                 "button"><span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span> <span class="icon-bar"></span>
                 <span class="icon-bar"></span></button> <a class="navbar-brand"
-                href="index.html"><img alt="ShippingHub" class="logoHeader"
-                src="images/logoHeader.svg" onerror="this.src='logoHeader.png'"></a>
+                href="index.html">
+                <object class="logoHeader img-responsive" data="images/logoHeader.svg" type="image/svg+xml">
+                    <img src="images/logoHeader.png"> 
+                    <!-- fallback with png image for browsers with NO SVG support -->
+                </object></a>
             </div>
 
             <div class="collapse navbar-collapse" id=
@@ -178,6 +181,7 @@
         </div>
     </nav>
 
+    <div class="internalImage" id="contactHeader1"></div>
     <div id="internal">
         <div class="container-fluid">
             <div class="row">

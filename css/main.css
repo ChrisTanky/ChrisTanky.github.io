@@ -128,11 +128,47 @@ body {
 }
 }
 
+/* MORE BUTONS */
+
+.btn-more {
+    width:185px;
+    height:35px;
+    font-weight:400;
+    font-size:1.4rem;
+    letter-spacing:.15rem;
+    background-color:#F5CB4A;
+    border-radius:3px;
+    border:1px #ffc000 solid;
+    color:#383838;
+    cursor:pointer;
+    float:right;
+    margin-right:6%;
+    margin-top:.8rem;
+    margin-bottom:1.5rem;
+    -webkit-transition:background-color .2s ease-out,color .2s ease-out;
+    -moz-transition:background-color .2s ease-out,color .2s ease-out;
+    -ms-transition:background-color .2s ease-out,color .2s ease-out;
+    -o-transition:background-color .2s ease-out,color .2s ease-out;
+    transition:background-color .2s ease-out,color .2s ease-out
+}
+
+.btn-more:hover {
+    background-color:transparent;
+    border:1px #cccccc solid;
+    color:#ffc000;
+    -webkit-transition:background-color .3s ease-in,color .3s ease-in;
+    -moz-transition:background-color .3s ease-in,color .3s ease-in;
+    -ms-transition:background-color .3s ease-in,color .3s ease-in;
+    -o-transition:background-color .3s ease-in,color .3s ease-in;
+    transition:background-color .3s ease-in,color .3s ease-in
+}
+
 /* PANEL 1 */
 .panel1 {
     height:535px;
     background-color:#b7e2ff;
     padding:80px 55px 45px;
+    background-image: url(../images/shattered.png);
 }
 
 .logoBody {
@@ -211,6 +247,7 @@ body {
     min-height:425px;
     background-color:#469fdc;
     padding:45px 55px;
+    background-image: url(../images/diagmonds.png);
 }
 
 .textContent2 h1 {
@@ -224,17 +261,25 @@ body {
 .textContent2 p {
     color:#eee;
     font-weight:400;
-    font-size:2rem;
+    font-size:2.3rem;
     letter-spacing:.1rem;
     line-height:3.5rem;
     padding:0 2%;
     margin-top:2%;
 }
 
+.panel2 a {
+    color: #F5CB4A !important;
+}
+
 @media (max-width:500px) {
 .textContent2 h1 {
     font-size:3rem;
 }
+.textContent2 p {
+    font-size: 1.72rem;
+    line-height: 3rem;
+} 
 }
 
 /* PANEL 3 */
@@ -243,6 +288,7 @@ body {
     min-height:425px;
     background-color:#217cbb;
     padding:45px 55px;
+    background-image: url(../images/diagmonds2.png);
 }
 
 .textContent3 h1 {
@@ -257,7 +303,7 @@ body {
 .textContent3 p {
     color:#eee;
     font-weight:400;
-    font-size:2rem;
+    font-size:2.3rem;
     letter-spacing:.1rem;
     line-height:3.5rem;
     padding:0 2%;
@@ -270,6 +316,10 @@ body {
     margin-top:7rem;
     font-size:3rem;
 }
+.textContent3 p {
+    font-size: 1.72rem;
+    line-height: 3rem;
+} 
 }
 
 /* LINK PANEL */
@@ -278,12 +328,13 @@ body {
     min-height:600px;
     background-color:#f1f1f1;
     padding:35px 25px;
-    background-image: url(../images/island_blur.jpg);
+    background-image: url(../images/palm_trees5_blur.jpg);
     background-size: cover;
+    background-position: right
 }
 
 .linkPanel h1 {
-    color:#383838;
+    color:#ADDDF0;
     letter-spacing:.3rem;
     font-weight:700;
     text-align:center;
@@ -291,12 +342,21 @@ body {
     line-height:4.5rem;
 }
 
+@media (max-width:1175px) {
+.linkPanel h1 {
+    padding:0 8rem;
+    font-size:3rem;
+    letter-spacing:.2rem;
+    line-height:3.5rem;
+}
+}
+
 @media (max-width:900px) {
 .linkPanel h1 {
-    padding:0;
-    font-size:2rem;
+    padding:0 3rem;
+    font-size:2.5rem;
     letter-spacing:.2rem;
-    line-height:3rem;
+    line-height:3.5rem;
 }
 
 .linkPanel {
@@ -308,10 +368,24 @@ body {
 /* FOOTER */
 .footer {
     background-color:#eee;
-    height:250px;
+    height:150px;
     width:100%;
     z-index:3;
     border-top:1px solid #bbb;
+    background-image: url(../images/footer_bg.png);
+}
+
+.socialWrapper {
+    width: 336px;
+    height: 80px;
+    margin: 3rem auto;
+}
+
+.footerIcons {
+    height: 80px;
+    width: 80px;
+    float: left;
+    margin-right: 3rem;
 }
 
 /* MISC */
@@ -328,7 +402,7 @@ body {
 }
 
 #arrow2 {
-    border-top-color:#469fdc;
+    border-top-color:#2baae1;
     margin-left:15%;
 }
 
@@ -340,10 +414,17 @@ body {
 }
 }
 
+object {
+    pointer-events: none;
+}
+
 .textHighlight {
     color:#ffc000;
 }
 
+#noRightMargin {
+    margin-right: 0;
+}
 /* ============INTERNAL PAGE============= */
 #internal {
     margin-top:5rem;
@@ -534,19 +615,33 @@ body {
 }
 
 #initHeader6 {
-    background-image: url(../images/palm_trees5.jpg);
+    background-image: url(../images/fireescape1.jpg);
     background-position: left;
 }
 
 #initHeader7 {
-    
+    background-image: url(../images/bridge1.jpg);
+    background-position: top left;
 }
 
 #initHeader8 {
-    
+    background-image: url(../images/building1.jpg);
+    background-position: left;
 }
 
 #projHeader1 {
     background-image: url(../images/palm_trees6.jpg);
     background-position: top left;
+}
+
+#contactHeader1 {
+    background-image: url(../images/overlook.jpg);
+    background-position: left;
+}
+
+@media (max-width: 800px) {
+    #initHeader7 {
+    background-image: url(../images/island5.jpg);
+    background-position: top right;
+}
 }
