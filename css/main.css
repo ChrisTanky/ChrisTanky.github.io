@@ -272,40 +272,6 @@ body {
 }
 }
 
-/* PANEL 4 */
-.panel4 {
-    height:100%;
-    min-height:425px;
-    background-color:#155b8b;
-    padding:45px 55px;
-}
-
-.textContent4 h1 {
-    color:#fff;
-    letter-spacing:.5rem;
-    font-weight:700;
-    padding-left:1%;
-    text-transform:uppercase;
-}
-
-.textContent4 p {
-    color:#eee;
-    font-weight:400;
-    font-size:2rem;
-    letter-spacing:.1rem;
-    line-height:3.5rem;
-    padding:0 2%;
-    margin-top:2%;
-}
-
-@media (max-width:700px) {
-.textContent4 h1 {
-    padding-left:0;
-    margin-top:3rem;
-    font-size:3rem;
-}
-}
-
 /* LINK PANEL */
 .linkPanel {
     height:100%;
@@ -366,20 +332,11 @@ body {
     margin-left:15%;
 }
 
-#arrow3 {
-    border-top-color:#217cbb;
-    margin-left:75%;
-}
-
 @media (max-width: 800px) {
 .arrow {
     border-left-width:35px;
     border-right-width:85px;
     border-top-width:85px;
-}
-
-#arrow3 {
-    margin-left:55%;
 }
 }
 
@@ -394,7 +351,7 @@ body {
     max-width:100%;
     margin-left:auto;
     margin-right:auto;
-    background-color:#eee;
+    background-color:#f4f4f4;
     height:100%;
     padding:3rem;
 }
@@ -466,6 +423,19 @@ body {
     position: relative;
 }
 
+#internal .iframeWrapper {
+    width:100%;
+    float:left;
+    text-align:center;
+    margin-bottom: 4rem;
+}
+
+#internal iframe {
+    margin: 0 auto;
+}
+
+/* @media Query */
+
 @media (max-width: 600px) {
     
 #internal {
@@ -483,17 +453,6 @@ body {
 }
 }
 
-#internal .iframeWrapper {
-    width:100%;
-    float:left;
-    text-align:center;
-    margin-bottom: 4rem;
-}
-
-#internal iframe {
-    margin: 0 auto;
-}
-
 @media (max-width: 480px) {
     #internal iframe {
         width: 320px;
@@ -501,7 +460,23 @@ body {
     }
 }
 
-/* ===============NEWS PAGE=============== */
+/*==============INTERNAL MISC===============*/
+#blockQuotes {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    padding-left: 50px;
+    border-left: 3px solid #ffc000;
+    font-size: 2rem !important;
+    font-style: italic;
+    letter-spacing: 0.15rem;
+    line-height: 4rem;
+}
+
+.overviewList li {
+    font-size:1.5rem;
+}
+
 #newsContent {
     font-size:1.5rem;
     line-height:3rem;
@@ -509,7 +484,6 @@ body {
     margin-bottom:3rem;
 }
 
-/* ================ABOUT PAGES=================*/
 .aboutHeader {
     font-weight:700;
     letter-spacing:.1rem;
@@ -517,15 +491,62 @@ body {
     margin:3rem 0 2rem 2rem;
 }
 
-#blockQuotes {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 50px;
-    padding-left: 15px;
-    border-left: 3px solid #ccc;
+/*==============INTERNAL HEADER IMAGES================*/
+.internalImage {
+    width:100%;
+    height:425px;
+    max-height:425px;
+    background-color: aliceblue;
+    position: relative;
+    margin-bottom: -13rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #f4f4f4;
 }
 
-/* ======================INITIATIVES====================== */
-.overviewList li {
-    font-size:1.5rem;
+#islandHeader {
+    background-image: url(../images/island.jpg);
+    background-position: top;
+}
+
+#initHeader1 {
+    background-image: url(../images/island3.jpg);
+    background-position: right;
+}
+
+#initHeader2 {
+    background-image: url(../images/palm_trees3.jpg);
+    background-position: left;
+}
+
+#initHeader3 {
+    
+}
+
+#initHeader4 {
+    background-image: url(../images/island2.jpg);
+    background-position: top left;
+}
+
+#initHeader5 {
+    background-image: url(../images/palm_trees4.jpg);
+    background-position: left;
+}
+
+#initHeader6 {
+    background-image: url(../images/palm_trees5.jpg);
+    background-position: left;
+}
+
+#initHeader7 {
+    
+}
+
+#initHeader8 {
+    
+}
+
+#projHeader1 {
+    background-image: url(../images/palm_trees6.jpg);
+    background-position: top left;
 }
