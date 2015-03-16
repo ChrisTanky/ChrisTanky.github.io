@@ -463,6 +463,8 @@ body {
 .socialWrapper {
     width: 100%;
     min-width: 280px;
+    height: 80px;
+    margin: 3rem auto;
 }
 
 .footerIcons {
