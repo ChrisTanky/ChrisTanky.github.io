@@ -447,7 +447,7 @@ body {
 
 .socialWrapper {
     width: 100%;
-    min-width: 300px;
+    max-width: 300px;
     height: 80px;
     margin: 3rem auto;
 }
@@ -459,10 +459,17 @@ body {
     margin-right: 3rem;
 }
 
+.footerIcons2 {
+    height: 80px;
+    width: 80px;
+    float: left;
+    margin-right: 0;
+}
+
 @media (max-width:640px) {
 .socialWrapper {
     width: 100%;
-    min-width: 280px;
+    max-width: 280px;
     height: 80px;
     margin: 3rem auto;
 }
@@ -472,6 +479,7 @@ body {
     width: 80px;
     float: left;
     margin-right: 2rem;
+}
 }
 
 /* MISC */
@@ -506,10 +514,6 @@ object {
 
 .textHighlight {
     color:#ffc000;
-}
-
-.noRightMargin {
-    margin-right: 0;
 }
 
 button:focus {
