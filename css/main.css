@@ -468,6 +468,9 @@ body {
 }
 
 .footerIcons {
+    height: 80px;
+    width: 80px;
+    float: left;
     margin-right: 2rem;
 }
 
