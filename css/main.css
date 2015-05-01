@@ -530,9 +530,9 @@ body {
 
 @media (max-width:640px) {
 .socialWrapper {
-    width: 100%;
+    width: 312px;
     max-width: 312px;
-    height: 80px;
+    height: 60px;
     margin: 3rem auto;
 }
 
