@@ -531,7 +531,7 @@ body {
 @media (max-width:640px) {
 .socialWrapper {
     width: 100%;
-    max-width: 288px;
+    max-width: 312px;
     height: 80px;
     margin: 3rem auto;
 }
@@ -540,7 +540,7 @@ body {
     height: 60px;
     width: 60px;
     float: left;
-    margin-right: 1rem;
+    margin-right: 1.5rem;
 }
     
 .footerIcons2 {
