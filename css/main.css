@@ -577,9 +577,10 @@ body {
 
 .banner {
     width: 100%;
-    height: 100px;
+    min-height: 100px;
+    height: auto;
     padding-top: 75px;
-    padding-bottom: 40px;
+    padding-bottom: 25px;
     background-color: #FFDB01;
     color: #1c3e6f;
     text-align: center;
@@ -840,6 +841,11 @@ button:focus {
 
 #contactHeader1 {
     background-image: url(../images/headers/overlook.jpg);
+    background-position: left;
+}
+
+#supportHeader1 {
+    background-image: url(../images/headers/convention.jpg);
     background-position: left;
 }
 
