@@ -159,7 +159,7 @@ hr {
 
 @media (max-width: 640px) {
     .body-container {
-        padding-top: 15rem;
+        padding-top: 10rem;
     }
     h1 {
         font-size: 4rem !important;
