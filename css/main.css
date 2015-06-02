@@ -23,6 +23,12 @@ h1{
     margin: 0 !important;
 }
 
+.navbar-header {
+    float: none !important;
+    width: 185px;
+    margin: 0 auto !important;
+}
+
 /*** VIDEO WRAPPER ***/
 .videoWrapper {
 	position: relative;
@@ -49,7 +55,7 @@ h1{
 }
 
 .body-container {
-    padding-top: 55rem;
+    padding-top: 60rem;
     margin-bottom: 5rem;
 }
 
@@ -132,5 +138,7 @@ h1{
 }
 
 @media (max-width: 480px) {
-    
+    #feature1 {
+        padding-top: 19rem;
+    }
 }
