@@ -74,21 +74,29 @@ h1{
 }
 
 .feature-banner {
-    margin: 3rem;
+    width: 100%;
+    max-width: 879px;
+    height: 100%;
+    min-height: 248px;
+    margin: 3rem auto 0 auto;
     padding: 3rem;
     position: relative;
     z-index: 0;
+    background-size: cover;
+}
+
+#feature1 {
+    background-image: url(../images/feature1.png);
+    background-position: center;
 }
 
 .feature-text {
     position: relative;
     z-index: 1;
     color: white;
-    margin-top: -13rem;
-    float: right;
-    margin-right: 35rem;
     font-weight: 700;
     letter-spacing: 0.1rem;
+    float: right;
 }
 
 /*** MEDIA QUERIES ***/
@@ -106,16 +114,20 @@ h1{
     .body-container {
         padding-top: 15rem;
     }
-    
     h1 {
         font-size: 4rem !important;
         margin-top: 5rem !important;
     }
-    
     .text-content {
         font-size: 1.5rem;
         line-height: 2.5rem;
         letter-spacing: 0.01rem;
+    }
+    .feature-text {
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 0.1rem;
+        float: right;
     }
 }
 
