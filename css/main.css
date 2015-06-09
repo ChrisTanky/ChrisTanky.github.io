@@ -114,6 +114,7 @@ hr {
     position: relative;
     z-index: 0;
     background-size: cover;
+    background-color: #ccc;
 }
 
 #feature1 {
@@ -171,6 +172,9 @@ hr {
         line-height: 2.5rem;
         letter-spacing: 0.01rem;
     }
+    .feature-banner {
+        margin-top: 5px;
+    }
     .feature-text {
         font-size: 2rem;
         font-weight: 700;
@@ -182,5 +186,6 @@ hr {
 @media (max-width: 480px) {
     #feature1 {
         padding-top: 19rem;
+        margin-top: 3rem;
     }
 }
