@@ -159,7 +159,7 @@ hr {
     }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 700px) {
     .body-container {
         padding-top: 10rem;
     }
