@@ -21,3 +21,29 @@ body {
     font-weight: 400;
     margin-top: -5rem;
 }
+
+@media (max-width:640px) {
+    .heading-lrg {
+        font-size: 6rem;
+        letter-spacing: 2.5rem;
+    }
+    
+    .heading-under {
+        font-size: 1rem;
+        letter-spacing: 1.7rem;
+        margin-top: -3rem;
+    }
+}
+
+@media (max-width:480px) {
+    .heading-lrg {
+        font-size: 3.5rem;
+        letter-spacing: 3rem;
+    }
+    
+    .heading-under {
+        font-size: 0.8rem;
+        letter-spacing: 1.5rem;
+        margin-top: -2rem;
+    }
+}
