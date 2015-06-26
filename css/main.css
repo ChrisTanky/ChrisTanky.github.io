@@ -7,6 +7,7 @@ body {
     text-transform: uppercase;
     font-size: 8rem;
     letter-spacing: 4rem;
+    text-indent: 4rem;
     text-align: center;
     font-family: 'Lora', serif;
 }
@@ -16,6 +17,7 @@ body {
     text-transform: uppercase;
     font-size: 2rem;
     letter-spacing: 2rem;
+    text-indent: 2rem;
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
@@ -26,11 +28,13 @@ body {
     .heading-lrg {
         font-size: 6rem;
         letter-spacing: 2.5rem;
+        text-indent: 2.5rem;
     }
     
     .heading-under {
         font-size: 1rem;
         letter-spacing: 1.7rem;
+        text-indent: 1.7rem;
         margin-top: -3rem;
     }
 }
@@ -39,11 +43,13 @@ body {
     .heading-lrg {
         font-size: 3.5rem;
         letter-spacing: 3rem;
+        text-indent: 3rem;
     }
     
     .heading-under {
         font-size: 0.8rem;
         letter-spacing: 1.5rem;
+        text-indent: 1.5rem;
         margin-top: -2rem;
     }
 }
