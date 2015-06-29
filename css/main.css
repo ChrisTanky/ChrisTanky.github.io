@@ -28,13 +28,13 @@ body {
     .heading-lrg {
         font-size: 6rem;
         letter-spacing: 2.5rem;
-        text-indent: 1.25rem;
+        text-indent: 2.5rem;
     }
     
     .heading-under {
         font-size: 1rem;
         letter-spacing: 1.7rem;
-        text-indent: 0.85rem;
+        text-indent: 1.7rem;
         margin-top: -3rem;
     }
 }
@@ -43,13 +43,13 @@ body {
     .heading-lrg {
         font-size: 3.5rem;
         letter-spacing: 3rem;
-        text-indent: 1.5rem;
+        text-indent: 3rem;
     }
     
     .heading-under {
         font-size: 0.8rem;
         letter-spacing: 1.5rem;
-        text-indent: 0.75rem;
+        text-indent: 1.5rem;
         margin-top: -2rem;
     }
 }
