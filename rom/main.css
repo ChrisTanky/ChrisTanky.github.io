@@ -334,15 +334,50 @@ Popout Content
 }
 
 #video {
-    background-color: #AEA8D3;
+    background-color: #CD3B3B;
 }
 
 #graph {
-    background-color: #FDE3A7;
+    background-color: #CB4646;
 }
 
 #info {
-    background-color: #D24D57;
+    background-color: #CB4646;
+}
+
+.about {
+    width: 70%;
+    height: 70%;
+    margin: 5rem auto;
+}
+
+.about h1 {
+    font-family: "Besom";
+    font-size: 5rem;
+    color: #ECE8D2;
+}
+
+.about p {
+    font-family: "Aleo";
+    font-size: 1.2rem;
+    color: #f5f4ee;
+    padding: 0 7rem;
+    line-height: 2.2rem;
+}
+
+.dots {
+    text-align: center;
+    font-size: 3rem;
+    color: #ECE8D2;
+    letter-spacing: 3rem;
+    margin: 0 auto;
+    margin-top: -1rem;
+}
+
+hr {
+   border: 1px solid #ccc; 
+    margin-bottom: 3rem;
+    margin-top: -2rem;
 }
 
 .close-menu {
@@ -377,13 +412,13 @@ Popout Content
 }
 
 .close-menu circle {
-    fill: #FFA300;
-    stroke: #f6f6f6;
+    fill: #ECE8D2;
+    stroke: transparent;
     stroke-width: 1px;
 }
 
 .close-menu polygon {
-    fill: #fff;
+    fill: #CB4646;
 }
 
 /*---------------
@@ -407,4 +442,16 @@ Popout Content
 	width: 100%;
 	height: 100%;
     z-index: 8;
+}
+
+/*---------------
+
+   Graph Page
+
+---------------*/
+
+#graph-dino {
+    fill: #ECE8D2;
+    stroke: #ECE8D2; 
+    stroke-width: 4;
 }

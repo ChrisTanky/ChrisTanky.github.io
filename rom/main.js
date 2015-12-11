@@ -48,5 +48,10 @@ jQuery(document).ready(function($){
             // update coordinates manually, since top/left style props don't work on SVG
             event.target.setAttribute('x', ui.position.left);
             event.target.setAttribute('y', ui.position.top);
-    })
+    });
+    
+     $('#weight-btn').on('click', function(event){
+		event.preventDefault();
+		$('#graph-dino').addClass('weight');
+	});
 });
