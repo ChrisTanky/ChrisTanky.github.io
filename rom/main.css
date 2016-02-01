@@ -349,26 +349,6 @@ Popout Content
     background-color: #CB4646;
 }
 
-.about {
-    width: 70%;
-    height: 70%;
-    margin: 5rem auto;
-}
-
-.about h1 {
-    font-family: "Besom";
-    font-size: 5rem;
-    color: #ECE8D2;
-}
-
-.about p {
-    font-family: "Aleo";
-    font-size: 1.2rem;
-    color: #f5f4ee;
-    padding: 0 7rem;
-    line-height: 2.2rem;
-}
-
 .dots {
     text-align: center;
     font-size: 3rem;
@@ -466,13 +446,36 @@ hr {
 
 ---------------*/
 
+.about {
+    width: 70%;
+    height: 70%;
+    margin: 5rem auto;
+}
+
+.about h1 {
+    font-family: "Besom";
+    font-size: 5rem;
+    color: #ECE8D2;
+}
+
+.about p {
+    font-family: "Aleo";
+    font-size: 1.2rem;
+    color: #f5f4ee;
+    padding: 0 7rem;
+    line-height: 2.2rem;
+}
+
 @media (max-width: 600px) {
     .about h1 {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
+        margin-bottom: 2.5rem;
     }
     
     .about p {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
+        line-height: 1.9rem;
+        padding: 0 1rem;
     }
     
 }
