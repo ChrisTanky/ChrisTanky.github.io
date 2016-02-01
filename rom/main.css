@@ -459,3 +459,20 @@ hr {
     stroke: #ECE8D2; 
     stroke-width: 4;
 }
+
+/*---------------
+
+   About Page
+
+---------------*/
+
+@media (max-width: 600px) {
+    .about h1 {
+        font-size: 1.5rem;
+    }
+    
+    .about p {
+        font-size: 0.8rem;
+    }
+    
+}
