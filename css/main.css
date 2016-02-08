@@ -24,6 +24,11 @@ body {
   Intro Elements
 *****************/
 
+.intro-wrapper {
+    position: relative;
+    display: block;
+}
+
 .background-img {
     background-image: url(../images/example.jpg);
     background-size: cover;
@@ -88,6 +93,21 @@ body {
     padding-right: 2rem;
 }
 
+.intro h6 {
+    font-family: "Hind";
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    width: 100%;
+    color: #ffffff;
+    margin-top: -60rem;
+    pointer-events: none;
+    text-align: right;
+    float:right;
+    padding-right: 2rem;
+}
+
 @media only screen
     and (min-device-width: 375px) 
     and (max-device-width: 667px) 
@@ -106,6 +126,14 @@ body {
     .intro {
         padding-left: 35%;
         padding-top: 30rem;
+    }
+    
+    .intro h6 {
+        font-size: 0.9rem;
+        letter-spacing: 0.4rem;
+        width: 50%;
+        margin-top: -23rem;
+        padding-right: 2.1rem;
     }
 }
 
@@ -136,6 +164,14 @@ body {
         float:right;
         padding-right: 2rem;
     }
+    
+    .intro h6 {
+        font-size: 0.9rem;
+        letter-spacing: 0.3rem;
+        width: 50%;
+        margin-top: -20rem;
+        padding-right: 2.5rem;
+    }
 }
 
 
@@ -143,6 +179,7 @@ body {
     .intro {
         padding-left: 23%;
         padding-top: 30rem;
+        padding-right: 15rem;
     }
 
     .intro h1 {
@@ -165,6 +202,14 @@ body {
         text-align: right;
         float:right;
         padding-right: 1.3rem;
+    }
+    
+    .intro h6 {
+        font-size: 0.9rem;
+        letter-spacing: 0.3rem;
+        width: 100%;
+        margin-top: -15rem;
+        padding-right: 1.8rem;
     }
 }
 
@@ -220,4 +265,63 @@ body {
     .bottom {
         height: 1000px;
     }
+}
+
+/************************
+      Main Content
+************************/
+.main-content {
+    position: absolute;
+    z-index: 5;
+    margin-top: 70rem;
+    width: 100%;
+}
+
+.main-content h1 {
+    font-family: "Hind";
+    font-weight: 700;
+    font-size: 3rem;
+    width: 100%;
+    letter-spacing: 0rem;
+    color: #ffffff;
+    pointer-events: none;
+}
+
+.main-content p {
+    font-family: "Hind";
+    font-weight: 300;
+    font-size: 2rem;
+    width: 100%;
+    letter-spacing: 0rem;
+    color: #ffffff;
+    pointer-events: none;
+}
+
+/************************
+        Grids
+************************/
+
+.row {
+    display: block;
+    width: 100%;
+}
+
+.col-left {
+    float: left;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 5%;
+    width: 35%%;
+    display: block;
+}
+
+.col-right {
+    float: right;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 10%;
+    width: 35%%;
+    display: block;
 }
