@@ -88,6 +88,20 @@ body {
     padding-right: 2rem;
 }
 
+@media only screen
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2) {
+        .intro h1 {
+            color: #ffffff;
+
+            background: none;
+
+            -webkit-text-fill-color: #fff;
+            -webkit-background-clip: none;
+        }
+}
+
 @media (max-width: 1300px) {
     .intro {
         padding-left: 35%;
