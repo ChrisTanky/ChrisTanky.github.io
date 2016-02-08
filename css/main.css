@@ -194,6 +194,7 @@ body {
 .bottom {
     height: 500px;
     background-color:#141819;
+    margin-top: -1px;
 }
 
 /* Support transparent border colors in IE6. */
