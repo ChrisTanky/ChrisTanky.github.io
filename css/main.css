@@ -102,6 +102,31 @@ body {
         }
 }
 
+@media only screen
+    and (orientation: portrait) { 
+        .intro h1 {
+            font-size: 17rem;
+            letter-spacing: -0.7rem;
+            margin-top: -6rem;
+        }
+
+        .intro h2 {
+            font-size: 1rem;
+            letter-spacing: 2.8rem;
+            margin-left: 1.5rem;
+        }
+
+        .intro p {
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.6rem;
+            margin-top: -43rem;
+            text-align: right;
+            float:right;
+            padding-right: 2rem;
+        }
+}
+
 @media (max-width: 1300px) {
     .intro {
         padding-left: 35%;
