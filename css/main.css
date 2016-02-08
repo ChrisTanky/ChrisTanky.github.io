@@ -103,6 +103,7 @@ body {
 }
 
 @media only screen
+    and (max-device-width: 680px) 
     and (orientation: portrait) { 
         .intro h1 {
             font-size: 17rem;
