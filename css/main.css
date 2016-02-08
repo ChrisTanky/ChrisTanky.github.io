@@ -98,7 +98,7 @@ body {
 @media (max-width: 1100px) {
     .intro {
         padding-left: 30%;
-        padding-top: 30rem;
+        padding-top: 18rem;
     }
 
     .intro h1 {
@@ -127,7 +127,6 @@ body {
 @media (max-width: 850px) {
     .intro {
         padding-left: 33%;
-        padding-top: 30rem;
     }
 
     .intro h1 {
