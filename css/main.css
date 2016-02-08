@@ -98,7 +98,7 @@ body {
 @media (max-width: 1100px) {
     .intro {
         padding-left: 30%;
-        padding-top: 18rem;
+        padding-top: 16rem;
     }
 
     .intro h1 {
@@ -117,7 +117,7 @@ body {
         font-size: 1rem;
         text-transform: uppercase;
         letter-spacing: 0.6rem;
-        margin-top: -42rem;
+        margin-top: -43rem;
         text-align: right;
         float:right;
         padding-right: 2rem;
