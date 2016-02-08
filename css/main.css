@@ -130,11 +130,32 @@ body {
         padding-top: 30rem;
     }
 
+    .intro h1 {
+        font-size: 13rem;
+        letter-spacing: -0.7rem;
+        margin-top: -5rem;
+    }
+
+    .intro h2 {
+        font-size: 1rem;
+        letter-spacing: 2rem;
+        margin-left: 1rem;
+    }
+
+    .intro p {
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.6rem;
+        margin-top: -35rem;
+        text-align: right;
+        float:right;
+        padding-right: 1.3rem;
+    }
 }
 
 @media (max-width: 700px) {
     .intro {
-        padding-left: 15%;
+        padding-left: 23%;
         padding-top: 30rem;
     }
 
@@ -161,7 +182,7 @@ body {
     }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
     .intro {
         padding-left: 3%;
     }
@@ -198,7 +219,7 @@ body {
 
 @media (max-width: 1100px) {
     .top {
-        border-width:0 0 800px 1100px;
+        border-width:0 0 400px 700px;
     }
     .bottom {
         height: 500px;
