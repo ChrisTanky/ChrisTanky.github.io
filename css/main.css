@@ -102,32 +102,6 @@ body {
         }
 }
 
-@media only screen
-    and (max-device-width: 680px) 
-    and (orientation: portrait) { 
-        .intro h1 {
-            font-size: 20rem;
-            letter-spacing: -0.7rem;
-            margin-top: -6rem;
-        }
-
-        .intro h2 {
-            font-size: 1rem;
-            letter-spacing: 2.8rem;
-            margin-left: 1.5rem;
-        }
-
-        .intro p {
-            font-size: 1.2rem;
-            text-transform: uppercase;
-            letter-spacing: 0.6rem;
-            margin-top: -43rem;
-            text-align: right;
-            float:right;
-            padding-right: 2rem;
-        }
-}
-
 @media (max-width: 1300px) {
     .intro {
         padding-left: 35%;
@@ -164,35 +138,8 @@ body {
     }
 }
 
+
 @media (max-width: 850px) {
-    .intro {
-        padding-left: 33%;
-    }
-
-    .intro h1 {
-        font-size: 13rem;
-        letter-spacing: -0.7rem;
-        margin-top: -5rem;
-    }
-
-    .intro h2 {
-        font-size: 1rem;
-        letter-spacing: 2rem;
-        margin-left: 1rem;
-    }
-
-    .intro p {
-        font-size: 1rem;
-        text-transform: uppercase;
-        letter-spacing: 0.6rem;
-        margin-top: -35rem;
-        text-align: right;
-        float:right;
-        padding-right: 1.3rem;
-    }
-}
-
-@media (max-width: 700px) {
     .intro {
         padding-left: 23%;
         padding-top: 30rem;
