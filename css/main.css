@@ -273,7 +273,7 @@ body {
 .main-content {
     position: absolute;
     z-index: 5;
-    margin-top: 70rem;
+    margin-top: 60rem;
     width: 100%;
 }
 
@@ -295,6 +295,34 @@ body {
     letter-spacing: 0rem;
     color: #ffffff;
     pointer-events: none;
+}
+
+@media (max-width: 1100px) {
+    .main-content {
+        margin-top: 40rem;
+    }
+
+    .main-content h1 {
+        font-size: 2rem;
+    }
+
+    .main-content p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 850px) {
+    .main-content {
+        margin-top: 45rem;
+    }
+
+    .main-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .main-content p {
+        font-size: 1rem;
+    }
 }
 
 /************************
