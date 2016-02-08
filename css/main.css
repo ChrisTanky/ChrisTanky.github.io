@@ -1,66 +1,215 @@
 body {
-    background-color: #0b2733;
+    margin: 0;
+    padding: 0;
+    background-color: #141819;
     overflow-x: hidden;
 }
 
-.heading-lrg {
-    color: #ffba00;
-    text-transform: uppercase;
-    font-size: 8rem;
-    letter-spacing: 4rem;
-    text-indent: 4rem;
-    text-align: center;
-    font-family: 'Lora', serif;
-}
-
-.heading-under {
-    color: #ffba00;
-    text-transform: uppercase;
-    font-size: 2rem;
-    letter-spacing: 2rem;
-    text-indent: 2rem;
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    margin-top: -5rem;
-}
+/******************
+   General Rules
+******************/
 
 .noselect {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
-    user-select: none;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
 }
 
-@media (max-width:640px) {
-    .heading-lrg {
-        font-size: 5.5rem;
-        letter-spacing: 2.5rem;
-        text-indent: 2.5rem;
-    }
+
+/*****************
+  Intro Elements
+*****************/
+
+.background-img {
+    background-image: url(../images/example.jpg);
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
     
-    .heading-under {
+    //z-index: 2;
+}
+
+.intro {
+    position: absolute;
+    z-index: 3;
+    padding-left: 45%;
+    padding-top: 30rem;
+    float: right;
+}
+
+.intro h1 {
+    font-family: "Hind";
+    font-weight: 700;
+    font-size: 20rem;
+    width: 100%;
+    letter-spacing: -0.7rem;
+    color: #ffffff;
+    margin-top: -8rem;
+    pointer-events: none;
+    
+    background: url(../images/example.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.intro h2 {
+    font-family: "Hind";
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3rem;
+    width: 100%;
+    color: #ffffff;
+    margin-left: 3rem;
+    pointer-events: none;
+}
+
+.intro p {
+    font-family: "Hind";
+    font-weight: 300;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.8rem;
+    width: 15rem;
+    color: #ffffff;
+    margin-top: -48rem;
+    pointer-events: none;
+    text-align: right;
+    float:right;
+    padding-right: 2rem;
+}
+
+@media (max-width: 1300px) {
+    .intro {
+        padding-left: 35%;
+        padding-top: 30rem;
+    }
+}
+
+@media (max-width: 1100px) {
+    .intro {
+        padding-left: 30%;
+        padding-top: 30rem;
+    }
+
+    .intro h1 {
+        font-size: 17rem;
+        letter-spacing: -0.7rem;
+        margin-top: -6rem;
+    }
+
+    .intro h2 {
         font-size: 1rem;
-        letter-spacing: 1.7rem;
-        text-indent: 1.7rem;
-        margin-top: -3rem;
+        letter-spacing: 2.8rem;
+        margin-left: 1.5rem;
+    }
+
+    .intro p {
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.6rem;
+        margin-top: -42rem;
+        text-align: right;
+        float:right;
+        padding-right: 2rem;
     }
 }
 
-@media (max-width:480px) {
-    .heading-lrg {
-        font-size: 3rem;
-        letter-spacing: 2.5rem;
-        text-indent: 3rem;
+@media (max-width: 850px) {
+    .intro {
+        padding-left: 33%;
+        padding-top: 30rem;
     }
-    
-    .heading-under {
-        font-size: 0.8rem;
-        letter-spacing: 1.5rem;
-        text-indent: 1.5rem;
-        margin-top: -2rem;
+
+}
+
+@media (max-width: 700px) {
+    .intro {
+        padding-left: 15%;
+        padding-top: 30rem;
+    }
+
+    .intro h1 {
+        font-size: 13rem;
+        letter-spacing: -0.7rem;
+        margin-top: -5rem;
+    }
+
+    .intro h2 {
+        font-size: 1rem;
+        letter-spacing: 2rem;
+        margin-left: 1rem;
+    }
+
+    .intro p {
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.6rem;
+        margin-top: -35rem;
+        text-align: right;
+        float:right;
+        padding-right: 1.3rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .intro {
+        padding-left: 3%;
+    }
+}
+
+/*********
+  Shape
+*********/
+
+.shape {
+    width:100%;
+    margin:0 auto;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+}
+.top {
+    height:0;
+    border-width:0 0 900px 1200px;
+    border-style:solid;
+    border-color:transparent #141819 #141819 transparent;
+}
+.bottom {
+    height: 500px;
+    background-color:#141819;
+}
+
+/* Support transparent border colors in IE6. */
+* html .top {
+    filter:chroma(color=#123456);
+    border-top-color:#123456;
+    border-left-color:#123456;
+}
+
+@media (max-width: 1100px) {
+    .top {
+        border-width:0 0 800px 1100px;
+    }
+    .bottom {
+        height: 500px;
+    }
+}
+
+@media (max-width: 800px) {
+    .top {
+        border-width:0 0 500px 800px;
+    }
+    .bottom {
+        height: 500px;
     }
 }
