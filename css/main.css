@@ -220,6 +220,36 @@ body {
     .intro {
         padding-left: 3%;
     }
+    
+    .intro h1 {
+        font-size: 11rem;
+        letter-spacing: -0.7rem;
+        margin-top: -4rem;
+    }
+
+    .intro h2 {
+        font-size: 0.8rem;
+        letter-spacing: 1.6rem;
+        margin-left: 1.5rem;
+    }
+
+    .intro p {
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5rem;
+        margin-top: -30rem;
+        text-align: right;
+        float:right;
+        padding-right: 1.3rem;
+    }
+    
+    .intro h6 {
+        font-size: 0.75rem;
+        letter-spacing: 0.25rem;
+        width: 100%;
+        margin-top: -12.8rem;
+        padding-right: 1.1rem;
+    }
 }
 
 /*********
@@ -332,6 +362,16 @@ body {
     }
 }
 
+@media (max-width: 600px) {
+    .main-content {
+        margin-top: 48rem;
+    }
+
+    .main-content h1 {
+        font-size: 1.2rem;
+    }
+}
+
 /************************
         Grids
 ************************/
@@ -348,7 +388,7 @@ body {
     padding-bottom: 10%;
     padding-left: 10%;
     padding-right: 5%;
-    width: 35%%;
+    width: 35%;
     display: block;
 }
 
@@ -358,12 +398,12 @@ body {
     padding-bottom: 10%;
     padding-left: 5%;
     padding-right: 10%;
-    width: 35%%;
+    width: 35%;
     display: block;
 }
 
 .row img {
-    max-width: 100%;
+    width: 100%;
     pointer-events: none;
 }
 
@@ -379,7 +419,7 @@ body {
     
     margin-left: -15rem;
     padding: 1rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.6rem;
     padding-left: 10rem;
 }
 
@@ -387,7 +427,7 @@ body {
     text-align: left;
     
     padding: 1rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.6rem;
     padding-right: 5rem;
     padding-left: 7rem;
 }
