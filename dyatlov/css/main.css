@@ -34,6 +34,7 @@ svg {
     float: left;
     margin-left: 5%;
     color: white;
+    list-style: none;
 }
 
 .navbar li img {
@@ -110,7 +111,7 @@ svg {
 .text-content {
     font-size: 1.1rem;
     color: aliceblue;
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
     padding-top: 7rem;
     display: block;
