@@ -1,0 +1,118 @@
+html {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #1e2028;
+    margin: 0;
+    padding: 0;
+}
+
+svg {
+    position:absolute;
+    z-index: 10;
+}
+
+/*************
+    NAVBAR
+*************/
+
+.navbar {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 3rem;
+    padding: 1rem 1rem;
+    
+    background-color: #1e2028;
+    border-bottom: 1px solid #383838
+}
+
+.navbar li {
+    float: left;
+    margin-left: 5%;
+    color: white;
+}
+
+.navbar li img {
+    width: 15rem;
+    margin-top: -1.5rem;
+}
+
+.intro-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.st0 {
+    fill:#F9F9F9;
+}
+
+.st1 {
+    fill:none;
+}
+
+#background-image {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/map.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    position: fixed;
+}
+
+/**********************
+      Main Content
+**********************/
+
+.main-content {
+    background-color: #1e2028;
+    width: 80%;
+    height: 100%;
+    padding: 3% 10%;
+    position: absolute;
+    margin-top: 60%;
+}
+
+.main-content h1 {
+    font-family: "Bitter"
+    font-weight: 400;
+    color: #ccc;
+}
+
+#heading1{
+    width: 30%;
+    z-index: 6;
+    position: relative;
+}
+
+.polaroid {
+    position: relative;
+    background-color: #fffff7;
+    padding: 2%;
+    padding-bottom: 6%;
+    z-index: 5;
+    pointer-events: none;
+    margin-top: -15%;
+    margin-left: 22%;
+    width: 70%;
+}
+
+#pol1 {
+    transform: rotate(-5deg);
+    box-shadow: -5px 5px 20px 5px rgba(0,0,0,0.5);
+}
+
+.text-content {
+    font-size: 1.1rem;
+    color: aliceblue;
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 7rem;
+    display: block;
+    line-height: 1.8rem;
+}
