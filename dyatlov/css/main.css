@@ -63,12 +63,24 @@ hr {
 @media (max-width: 1200px) {
     .navbar li img {
         width: 10rem;
+        margin-top: -1rem;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .navbar li img {
-        width: 5rem;
+        width: 7rem;
+        margin-top: 0rem;
+    }
+    
+    .navbar li {
+        margin-right: 2%;
+        margin-right: 4%;
+    }
+    
+    .navbar {
+        height: 3rem;
+        padding: 0rem 0.5rem 0.5rem 0.7rem;
     }
 }
 
