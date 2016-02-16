@@ -127,6 +127,25 @@ hr {
     color: #ccc;
 }
 
+.circle {
+    position: absolute;
+    z-index: 9;
+}
+
+#c1 {
+    width: 20%;
+    margin-left: -27%;
+    margin-top: 3%;
+    transform: scale(1,0.8);
+}
+
+#c2 {
+    width: 20%;
+    margin-left: 60%;
+    margin-top: 6%;
+    transform: scale(1,0.5);
+}
+
 #heading1 {
     width: 30%;
     z-index: 6;
@@ -141,9 +160,10 @@ hr {
 }
 
 #heading3 {
-    width: 30%;
+    width: 50%;
     z-index: 6;
     position: relative;
+    float: left;
 }
 
 .polaroid {
@@ -156,7 +176,12 @@ hr {
 }
 
 .section {
-    margin-bottom: 5%;   
+    margin-bottom: 5%; 
+    display: block;
+}
+
+#section3 {
+    margin-top: 60%;
 }
 
 .text-content {
@@ -203,7 +228,63 @@ hr {
     float: left;
 }
 
+#pol5 {
+    transform: rotate(-3deg);
+    box-shadow: -5px 5px 20px 5px rgba(0,0,0,0.5);
+    
+    width: 50%;
+    left: 30%;
+    float: none;
+    
+    margin: 0 auto;
+    
+}
+
+#caption5 {
+    position: relative;
+    z-index: 10;
+    width: 25%;
+    left: -7%;
+    transform: rotate(-3deg);
+}
+
+
 #hiker1 {
     width: 45%;
     margin: 5% 0 0 0;
+}
+
+#hiker2 {
+    width: 40%;
+    float: right;
+}
+
+@media (max-width: 900px) {
+    #heading1 {
+        width: 60%;
+    }
+
+    #heading2 {
+        width: 50%;
+    }
+
+    #heading3 {
+        width: 50%;
+    }
+    
+    #c1 {
+        width: 30%;
+        margin-left: -45%;
+        margin-top: 10%;
+    }
+
+    #c2 {
+        width: 30%;
+        margin-left: 50%;
+        margin-top: 9%;
+    }
+    
+    .text-content {
+        font-size: 0.4rem;   
+    }
 }
