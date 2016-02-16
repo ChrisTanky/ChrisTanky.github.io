@@ -15,6 +15,11 @@ svg {
     z-index: 10;
 }
 
+hr {
+    border-color: #1e1f23;
+    opacity: 50%;
+}
+
 /*************
     NAVBAR
 *************/
@@ -24,15 +29,23 @@ svg {
     z-index: 100;
     width: 100%;
     height: 3rem;
-    padding: 1rem 1rem;
+    padding: 1rem 1.5rem;
     
     background-color: #1e2028;
-    border-bottom: 1px solid #383838
+    border-bottom: 1px solid #1a1c23;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
 }
 
 .navbar li {
-    float: left;
-    margin-left: 5%;
+    margin-right: 2%;
+    margin-right: 3%;
     color: white;
     list-style: none;
 }
@@ -40,6 +53,11 @@ svg {
 .navbar li img {
     width: 15rem;
     margin-top: -1.5rem;
+}
+
+.navbar.shrink {
+    height: 2rem;
+    padding: 0.6rem 1rem;
 }
 
 .intro-wrapper {
@@ -58,7 +76,7 @@ svg {
 
 #background-image {
     width: 100%;
-    height: 100%;
+    height: 1100px;
     background-image: url(../images/map.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -73,7 +91,7 @@ svg {
 .main-content {
     background-color: #1e2028;
     width: 80%;
-    height: 100%;
+    height: 300%;
     padding: 3% 10%;
     position: absolute;
     margin-top: 60%;
@@ -85,10 +103,17 @@ svg {
     color: #ccc;
 }
 
-#heading1{
+#heading1 {
     width: 30%;
     z-index: 6;
     position: relative;
+}
+
+#heading2 {
+    width: 30%;
+    z-index: 6;
+    position: relative;
+    float: right;
 }
 
 .polaroid {
@@ -98,22 +123,58 @@ svg {
     padding-bottom: 6%;
     z-index: 5;
     pointer-events: none;
-    margin-top: -15%;
-    margin-left: 22%;
-    width: 70%;
 }
 
-#pol1 {
-    transform: rotate(-5deg);
-    box-shadow: -5px 5px 20px 5px rgba(0,0,0,0.5);
+.section {
+    margin-bottom: 5%;   
 }
 
 .text-content {
     font-size: 1.1rem;
+    font-family: sans-serif;
     color: aliceblue;
     width: 85%;
     margin: 0 auto;
     padding-top: 7rem;
     display: block;
     line-height: 1.8rem;
+}
+
+/** Section 1 **/
+#pol1 {
+    transform: rotate(-5deg);
+    box-shadow: -5px 5px 20px 5px rgba(0,0,0,0.5);
+    
+    width: 70%;
+    margin-top: -15%;
+    margin-left: 22%;
+}
+
+/** Section 2 **/
+#pol2 {
+    transform: rotate(5deg);
+    box-shadow: -5px 5px 20px 5px rgba(0,0,0,0.5);
+    
+    width: 50%;
+    margin-top: -15%;
+    margin-left: 30%;
+    
+    float: right;
+}
+
+#pol3 {
+    transform: rotate(-5deg);
+    box-shadow: -5px 5px 20px 5px rgba(0,0,0,0.5);
+    
+    width: 50%;
+    margin-top: -7%;
+    margin-left: 2%;
+    
+    float: left;
+}
+
+#hiker1 {
+    width: 45%;
+    margin: 5% 0 0 0;
+    
 }
